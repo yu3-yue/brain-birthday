@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>小满生日祝福</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- 背景音乐 -->
+  <audio id="background-music" autoplay loop>
+    <source src="music/birthday.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <div class="container">
+    <h1 class="greeting">Hiya, Brain</h1>
+    <p class="greeting-text">你知道吗？今天是小满节气!</p >
+    <p class="wish-text">May the js.prototypes always be with you! ;)</p >
+    < img src="img/lydia2.png" alt="Birthday Image" class="birthday-image">
+    <div class="birthday-text">
+      <h2 class="text1">It's your birthday!!! :D</h2>
+      <p class="text-in-chatbox">Happy birthday to you!! Yeee! Many many happy blah...</p >
+      <button class="send-button" onclick="sendMessage()">Send</button>
+      <p class="text2">三十而立，小满至.</p >
+      <p class="text3">小得盈满，方为大成。愿你如这节气一般，不急不躁，稳步前行.</p >
+      <p class="text4">愿你心怀热爱，步履不停，拥抱每一个平凡又美好的瞬间</p >
+      <p class="text5-entry">Because,</p >
+      <p class="text5-content">You are Special :)</p >
+      <div class="big-text">
+        <span class="big-text-part1">S</span>
+        <span class="big-text-part2">O</span>
+      </div>
+      <h2 class="wish-heading">Happy Birthday! 愿你的世界永远充满阳光。</h2>
+    </div>
+    <p class="outro-text">Okay, now come back and tell me if you liked it.</p >
+    <button class="replay-button" onclick="replayMessage()">Or click, if you want to watch it again.</button>
+    <p class="outro-smiley">:)</p >
+  </div>
+
+  <script>
+    // JavaScript代码
+    function sendMessage() {
+      alert("Message sent! Happy Birthday, Brain!");
+    }
+
+    function replayMessage() {
+      alert("This message is replayed for you! Enjoy your special day!");
+    }
+  </script>
+</body>
+</html>
